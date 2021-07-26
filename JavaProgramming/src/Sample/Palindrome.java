@@ -20,11 +20,11 @@ public class Palindrome {
 		
 		if(ori_num==rev)
 		{
-			System.out.println(ori_num+" Number is Palindrome");
+			System.out.println(ori_num+" Palindrome Number");
 		}
 		else
 		{
-			System.out.println(ori_num+" Number is not Palindrome");
+			System.out.println(ori_num+" is not Palindrome Number");
 		}
 
 	}
