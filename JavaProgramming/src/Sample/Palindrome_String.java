@@ -1,12 +1,17 @@
 package Sample;
 
+import java.util.Scanner;
+
 public class Palindrome_String {
 
 	public static void main(String[] args) {
 		
-		String str = "MADAM";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your string:");
+		String str = sc.next();
+		String org=str;
 		String rev="";
-		String org=rev;
+		
 		
 		int len = str.length();
 		
@@ -15,9 +20,9 @@ public class Palindrome_String {
 			rev = rev+str.charAt(i);
 		}
 		
-		if(org==rev)
+		if(org.equals(rev))
 		{
-			System.out.println(org+" Palindrome String");
+			System.out.println(org+" is Palindrome String");
 		}
 		else
 		{
