@@ -2,6 +2,8 @@ package Sample;
 
 import java.util.Random;
 
+import org.apache.commons.lang3.RandomStringUtils;
+
 public class GenerateRandom_Number_String {
 
 	public static void main(String[] args) {
@@ -19,7 +21,8 @@ public class GenerateRandom_Number_String {
 		
 		//Apache common lang API
 		
-		
+		String rand = RandomStringUtils.randomNumeric(5);
+		System.out.println(rand);
 
 	}
 
